@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sign In</title>
+    </head>
+    <body>
+        <h3>Sign In</h3>
+        <form action="/signin" method="POST">
+            <p>Username: <input type="input" name="username" value="{{username}}" /></p>
+            <p>Password: <input type="password" name="password" /></p>
+            <p><input type="submit" value="Sign In" /></p>
+        </form>
+        {% if message %}
+        <p style="color:red;">{{ message }}</p>
+        {% endif %}
+    </body>
+</html>
