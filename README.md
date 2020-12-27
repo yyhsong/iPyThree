@@ -1,2 +1,2 @@
 # iPyThree
-Python 3.x 刻意练习
+Python 3.x 编程练习
